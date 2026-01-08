@@ -1,10 +1,22 @@
+import { Navbar } from "./components.js/Navbar";
+import { Hero } from "./components.js/Hero";
+import { About } from "./components.js/About";
+import { Services } from "./components.js/Services";
+import { Tours } from "./components.js/Tours";
+import { Footer } from "./components.js/Footer";
+
 function App() {
   console.log("Hello world");
   return (
-    <div>
-      <h1>Backroads app</h1>
-      <h2>Other text</h2>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      <About />
+      <Services />
+      <Tours />
+      <Footer />
+      {/* testowy komentarz */}
+    </>
   );
 }
 
