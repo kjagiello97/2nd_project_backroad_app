@@ -1,4 +1,5 @@
 import React from "react";
+import tour1Img from "../images/tour-1.jpeg";
 
 export const Tours = () => {
   return (
@@ -12,7 +13,7 @@ export const Tours = () => {
       <div className="section-center featured-center">
         <article className="tour-card">
           <div className="tour-img-container">
-            <img src="./images/tour-1.jpeg" className="tour-img" alt="" />
+            <img src={tour1Img} className="tour-img" alt="" />
             <p className="tour-date">august 26th, 2020</p>
           </div>
           <div className="tour-info">
