@@ -2,8 +2,6 @@
 import logo from "../images/logo.svg";
 import { pageLinks, socialLinks } from "../data";
 
-import React from "react";
-
 export const Navbar = () => {
   return (
     <nav className="navbar">

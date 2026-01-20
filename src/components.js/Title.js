@@ -1,5 +1,3 @@
-import React from "react";
-
 export const Title = ({ title, subtitle }) => {
   return (
     <div className="section-title">
@@ -9,3 +7,4 @@ export const Title = ({ title, subtitle }) => {
     </div>
   );
 };
+export default Title;
